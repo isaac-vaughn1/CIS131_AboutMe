@@ -4,9 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Questions</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -19,10 +17,22 @@
 
         <!--Main Content of the Page-->
         <div id="mainTxt">
-            <h1>Hobbies</h1>
-            <p>Other than programming I have a few different hobbies that I enjoy. I love to read, play guitar, and
-                play video games. <br>
-            </p>
+            <h1>Sign Off</h1>
+            <form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+
+                <label for="dayGreatness">Have a(n) __ day!:</label>
+                <select id="dayGreatness" name="dayGreatness">
+                    <option value="alright">Alright</option>
+                    <option value="great">Great</option>
+                    <option value="awesome">Awesome</option>
+                </select>
+                <br>
+
+                <button type="submit">Submit</button>
+            </form>
         </div>
 
         <!--Navbar-->
@@ -34,15 +44,8 @@
                 <li><a href="form.html">Sign Off</a></li>
             </ul>
         </nav>
-
     </div>
 
-    <!--Images-->
-    <div class="images">
-        <img src="images/book.png" alt="an open book">
-        <img src="images/gaming.png" alt="someone playing video games">
-        <img src="images/guitar.png" alt="guitar player looking at the sunset">
-    </div>
 </body>
 
 </html>
